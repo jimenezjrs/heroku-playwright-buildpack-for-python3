@@ -143,4 +143,7 @@ configure_export_env
 
 # Run playwright install script
 topic "Installing Playwright"
+
+# Activate the virtual environment
+source /app/.heroku/python/bin/activate
 playwright install
